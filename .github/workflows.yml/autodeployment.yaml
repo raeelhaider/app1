@@ -30,7 +30,7 @@ jobs:
          version: '12'
          
     # Install Yarn
-    -name: Github actions for Yarn
+    - name: Github actions for Yarn
     - uses: borales/actions-yarn@v2.0.0
       with: 
         cmd: install     # will run 'yarn install' command
