@@ -27,9 +27,10 @@ jobs:
      - name: Install Nodejs
        uses: actoions/setup-node@v2-beta
        with:
-         node-version: '12'
+         version: '12'
          
     # Install Yarn
+    -name: Github actions for Yarn
     - uses: brales/actions-yarn@v2.0.0
       with: 
         cmd: install     # will run 'yarn install' command
